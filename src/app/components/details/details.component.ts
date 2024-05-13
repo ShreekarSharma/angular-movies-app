@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import {
   AfterContentInit,
   AfterViewInit,
@@ -8,6 +7,7 @@ import {
   SimpleChanges,
 } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { MoviesService } from '../../services/movies.service';
 
 @Component({
   selector: 'app-details',
@@ -21,7 +21,7 @@ export class DetailsComponent
   stars = []
   genres = []
   actors = []
-  constructor(private _activatedRoute: ActivatedRoute, private httpClient: HttpClient) {
+  constructor(private _activatedRoute: ActivatedRoute, private moviesService:MoviesService) {
     this._activatedRoute.params.subscribe((p)=>{
       this.movieId = p['id'];
       console.log(this.movieId);
@@ -42,7 +42,7 @@ export class DetailsComponent
     console.log('ngAfterViewInit called.');
   }
   loadMovieSummary(){
-    this.httpClient.get<any>('../../../assets/data/movieSummary.json').subscribe((data:any)=>{
+    this.moviesService.loadMovieSummary().subscribe((data:any)=>{
       this.stars = data.stars;
       this.genres = data.genres;
       this.actors = data.actors;

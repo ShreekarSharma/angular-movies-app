@@ -1,5 +1,5 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { MoviesService } from '../../services/movies.service';
 
 @Component({
   selector: 'app-details-reviews',
@@ -8,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailsReviewsComponent implements OnInit {
   movieRates: any[] = []
-  constructor(private httpClient: HttpClient){}
+  constructor(private moviesService:MoviesService){}
   ngOnInit(): void {
     this.loadMovieRates();
   }
   loadMovieRates(){
-    this.httpClient.get('../../../assets/data/movieRates.json').subscribe((data:any)=>{
+    this.moviesService.loadMovieRates().subscribe((data:any)=>{
       this.movieRates = data;
     })
   }
