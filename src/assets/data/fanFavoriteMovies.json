@@ -1,0 +1,42 @@
+[
+  {
+    "imageUrl": "../../../assets/images/a3IHgSwO5jWPLcGjKqbQ7pxVGkq.jpg",
+    "title": "Movie Title #1",
+    "actors": "Movie Actors",
+    "year": "2023",
+    "rate": 7.1,
+    "trophy": 1
+  },
+  {
+    "imageUrl": "../../../assets/images/a3IHgSwO5jWPLcGjKqbQ7pxVGkq.jpg",
+    "title": "Movie Title #2",
+    "actors": "Movie Actors",
+    "year": "2023",
+    "rate": 7.1,
+    "trophy": 1
+  },
+  {
+    "imageUrl": "../../../assets/images/a3IHgSwO5jWPLcGjKqbQ7pxVGkq.jpg",
+    "title": "Movie Title #3",
+    "actors": "Movie Actors",
+    "year": "2023",
+    "rate": 7.1,
+    "trophy": 1
+  },
+  {
+    "imageUrl": "../../../assets/images/a3IHgSwO5jWPLcGjKqbQ7pxVGkq.jpg",
+    "title": "Movie Title #4",
+    "actors": "Movie Actors",
+    "year": "2023",
+    "rate": 7.1,
+    "trophy": 1
+  },
+  {
+    "imageUrl": "../../../assets/images/a3IHgSwO5jWPLcGjKqbQ7pxVGkq.jpg",
+    "title": "Movie Title #5",
+    "actors": "Movie Actors",
+    "year": "2023",
+    "rate": 7.1,
+    "trophy": 1
+  }
+]

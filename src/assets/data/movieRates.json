@@ -1,0 +1,51 @@
+[
+  {
+    "rate": 7.1,
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quia rerum officia excepturi quam! Esse distinctio rem, nesciunt eius ipsam quia nam consequatur aut debitis.",
+    "author": "john doe",
+    "usefulCount": 100,
+    "totalCount": 194
+  },
+  {
+    "rate": 7.1,
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quia rerum officia excepturi quam! Esse distinctio rem, nesciunt eius ipsam quia nam consequatur aut debitis.",
+    "author": "john doe",
+    "usefulCount": 100,
+    "totalCount": 194
+  },
+  {
+    "rate": 7.1,
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quia rerum officia excepturi quam! Esse distinctio rem, nesciunt eius ipsam quia nam consequatur aut debitis.",
+    "author": "john doe",
+    "usefulCount": 100,
+    "totalCount": 194
+  },
+  {
+    "rate": 7.1,
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quia rerum officia excepturi quam! Esse distinctio rem, nesciunt eius ipsam quia nam consequatur aut debitis.",
+    "author": "john doe",
+    "usefulCount": 100,
+    "totalCount": 194
+  },
+  {
+    "rate": 7.1,
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quia rerum officia excepturi quam! Esse distinctio rem, nesciunt eius ipsam quia nam consequatur aut debitis.",
+    "author": "john doe",
+    "usefulCount": 100,
+    "totalCount": 194
+  },
+  {
+    "rate": 7.1,
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quia rerum officia excepturi quam! Esse distinctio rem, nesciunt eius ipsam quia nam consequatur aut debitis.",
+    "author": "john doe",
+    "usefulCount": 100,
+    "totalCount": 194
+  },
+  {
+    "rate": 7.1,
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quia rerum officia excepturi quam! Esse distinctio rem, nesciunt eius ipsam quia nam consequatur aut debitis.",
+    "author": "john doe",
+    "usefulCount": 100,
+    "totalCount": 194
+  }
+]
