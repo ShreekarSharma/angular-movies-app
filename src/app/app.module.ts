@@ -12,7 +12,7 @@ import { NotAuthorizedComponent } from './components/not-authorized/not-authoriz
 import { SearchComponent } from './components/search/search.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { ProfitPipe } from './pipes/profit.pipe';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DetailsActorsComponent } from './components/details-actors/details-actors.component';
 import { AppRoutesModule } from './modules/app.routes';
 import { NotFoundComponent } from './components/not-found/not-found.component';
@@ -21,6 +21,8 @@ import { MyIfDirective } from './directives/my-if.directive';
 import { HttpClientModule } from '@angular/common/http';
 import { MoviesService } from './services/movies.service';
 import { GlobalErrorHandlerService } from './services/global-error-handler.service';
+import { FeedbackComponent } from './components/feedback/feedback.component';
+
 
 @NgModule({
   declarations: [
@@ -37,6 +39,7 @@ import { GlobalErrorHandlerService } from './services/global-error-handler.servi
     LoaderComponent,
     DetailsActorsComponent,
     NotFoundComponent,
+    FeedbackComponent,
     //Pipes
     ProfitPipe,
     HeaderDirective,
@@ -46,7 +49,8 @@ import { GlobalErrorHandlerService } from './services/global-error-handler.servi
     BrowserModule,
     AppRoutesModule,
     FormsModule,
-    HttpClientModule
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [MoviesService, {provide: ErrorHandler, useClass: GlobalErrorHandlerService}],
   bootstrap: [AppComponent]

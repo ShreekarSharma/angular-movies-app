@@ -5,7 +5,7 @@ import { DetailsMoviesComponent } from "../components/details-movies/details-mov
 import { DetailsReviewsComponent } from "../components/details-reviews/details-reviews.component";
 import { DetailsComponent } from "../components/details/details.component";
 import { HomeComponent } from "../components/home/home.component";
-// import { FeedbackComponent } from "../components/feedback/feedback.component";
+import { FeedbackComponent } from "../components/feedback/feedback.component";
 import { SearchComponent } from "../components/search/search.component";
 import { NotFoundComponent } from "../components/not-found/not-found.component";
 
@@ -16,7 +16,7 @@ const routes: Routes = [
     {path:'details/actors/:id', component: DetailsActorsComponent},
     {path:'details/movies/:id', component: DetailsMoviesComponent},
     {path:'details/reviews/:id', component: DetailsReviewsComponent},
-    // {path:'feedback', component: FeedbackComponent},
+    {path:'feedback', component: FeedbackComponent},
     // START: Nested Routes
     // {path:'details/:id', component: DetailsComponent, children:[
     //   {path:'actors',component:DetailsActorsComponent},
